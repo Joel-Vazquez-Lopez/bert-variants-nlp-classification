@@ -113,16 +113,30 @@ I designed a complete sentiment classification pipeline that includes:
 ---
 
 ## Repository Structure
+```
 .
 ├── Sentiment_Classification_with_Contextualized_Models.ipynb
 ├── uncapped.py
 ├── README.md
-
+```
 
 - `Sentiment_Classification_with_Contextualized_Models.ipynb`  
   Full implementation including data processing, training, evaluation, and analysis.
 
 - `uncapped.py`  
   Script used for full-scale experiments on the complete dataset (50,000 samples).
+
+---
+
+## Future Work
+
+Possible extensions of this project include:
+
+- Hyperparameter tuning (learning rate, batch size, dropout)
+- Regularization strategies to reduce overfitting
+- Fine-tuning deeper transformer layers
+- Evaluation on additional out-of-domain datasets
+- Incorporating more advanced transformer architectures
+
 
 ---
